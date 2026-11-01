@@ -1,0 +1,12 @@
+[project]
+name = "car-fuel-efficiency"
+version = "0.1.0"
+description = "Tree-based regression analysis of car fuel efficiency"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+]
